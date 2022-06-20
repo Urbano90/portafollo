@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');  /* aqui importamos el font family */
+html {
+    font-size: 62,5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --yellow: #06f92e;
+    --light-yellow: #80bdff;
+    --black: #130f40;
+    --light-color:#666;
+    --border: .2rem solid rgba(0, 0, 0, 0.233);
+    --box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+}
+body {
+    font-family: 'roboto';
+    width: 100%;
+    color: var(--black);
+}
+a {
+    text-decoration: none;
+    display: inline;
+    color: rgb(183, 12, 12);
+}
+a:hover {
+    color: rgb(25, 171, 25);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 30px black;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.nav-logo-container img {
+   width: 8rem;
+}
+.header-icons-container .icons  {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.header-icons-container .icons img {
+    width: 2rem;
+}
+.profile-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+}
+.profile-link img { /* imagen del menu*/
+    width: 3rem;
+    display: none;
+    cursor: pointer;
+}
+.nav-menu a {
+    font-weight: bold;
+    border: var(--border);
+    border-radius: .4rem;
+}
+.profile-link .cerrar-img {
+    width: 2rem;
+    display: none;
+    cursor: pointer;
+}
+.profile-link .nav-menu a {
+    padding: .5rem;
+}
+.blogs-main {
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
+}
+.profile-container {
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    box-shadow: 0 0 30px black;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 80%;
+    color: red;
+    gap: 2rem;
+}
+.profile-container p {
+    color: var(--black);
+    font-size: 1rem;
+}
+.contenedor-img {
+    width: 100%;
+    padding: .5rem;
+    display: grid;
+    justify-content: center;
+}
+.contenedor-img img {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: .5rem;
+    box-shadow: 0 0 30px black;
+}
+.profile-container  {
+    align-items: center;
+}
+.grid-container h3 {
+    padding: 2rem;
+    text-align: center;
+}
+.proyects-main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+.blogs-posts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.blogs-news-info-container h3 {
+    text-align: center;
+    background: cornflowerblue;
+}
+.blogs-news-info-container p {
+    padding: 1rem;
+    margin-top: .9rem;
+}
+.img-proyects {
+    width: 12rem;
+    margin: 0 auto;
+}
+.post-container {
+    padding: 1rem;
+}
+
+.contact-main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    max-width: 100%;
+    min-height: 250px;
+    padding-bottom:50px ;
+    background: #e6e9ed;
+    text-align: center;
+    box-shadow: 0 0 30px black;
+}
+.contactos .row form {
+    width: 50%;
+   display: block;
+   margin: 2rem auto;
+   padding: 1rem;
+   border: var(--border);
+   border-radius: .5rem;
+   box-shadow: var(--box-shadow);
+   text-align: center;
+}
+.contactos .row form h3 {
+    font-size: 1.rem;
+    color: var(--black);
+}
+.contactos .row form .box {
+    margin: .5rem 0;
+    width: 100%;
+    border: var(--border);
+    padding: .5rem;
+    font-size: 1rem;
+    color: var(--black);
+    text-transform: none;
+    border-radius: .5rem;
+}
+.contactos .row form textarea {
+    height: 10rem;
+    resize: none;  /* eliminamos el margen de señal que se escuentra a la derecha-abajo del textarea*/
+}
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: var(--black);
+    font-weight: 500;
+    font-size: .8rem;
+    cursor: pointer;
+    padding: .6rem .8rem;
+    border: var(--border);
+}
+.btn:hover {
+    background: var(--yellow);
+    color: #fff;
+}
+.contact-main-container div a {
+    padding-bottom: .5rem;
+}
+.contact-main-container .contact-left, .contact-right {
+    margin-top: 80px;
+    text-align: center;
+}
+.contact-main-container img {
+    width: 3rem;
+}
+
+footer{
+    box-shadow: 0 0 30px black;
+    width: 100%;
+    height: 80px;
+    background-color:#22272d;
+    border-top: 35px solid rgb(187, 55, 55);
+    text-align: center;
+}
+footer p {
+    color: white;
+}

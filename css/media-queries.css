@@ -1,0 +1,60 @@
+@media (max-width: 900px) {
+    
+.nav-menu {
+    display: none;
+    position: absolute;
+    top: 4.8rem;
+    z-index: 1000;
+    background: #fff;
+    width: 194%;
+    height: 10rem;
+    font-weight: bold;
+}
+nav .profile-link img {
+    display: block;
+    width: 2rem;
+}
+
+.profile-container {
+    margin-right: 50px;
+}
+.blogs-main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+    
+}
+@media (max-width: 600px) {
+.header-icons-container .icons img {
+    width: 1.5rem;
+}
+.nav-logo-container img {
+    width: 5rem;
+}
+.nav-menu {
+    top: 3.1rem;
+    padding: 1rem;
+}
+.profile-container h2 {
+    font-size: 1.1rem;
+}
+    .blogs-main {
+        width: 100%;
+        margin: 0 auto;
+     }
+    .profile-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .contactos .row form {
+        width: 90%;
+    }
+}
+@media (max-width: 465px) {
+
+    .profile-container div h2{
+        font-size: 1.3rem;
+    }
+}

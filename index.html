@@ -6,88 +6,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="media-queries.css"> <!-- Llamando la clase de media queries para responsive-->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media-queries.css"> <!-- Llamando la clase de media queries para responsive-->
     <title>Formación y empleo de Urbano Akoro</title>
 </head>
-<body  class="home-body">
-    <main>  <!--Esta clase la puse para poder controlar la dimension o el width ddde la pagina en el main-->
+<body>
     <header>
-        <section class="header-icons-container">
-            <div class="icons">
-                <a href="https://www.instagram.com/urbanomangomo/"><img class="logo-instagram" src="https://img.icons8.com/color/2x/instagram-new--v2.gif" alt="logo-Instagram"></a>
-                <a href="https://twitter.com/UrbanoAkoro"><img class="logo-twitter" src="https://img.icons8.com/color/2x/twitter.png" alt="logo-Twitter"></a>
-                <a href="https://www.linkedin.com/in/urbano-akoro-mangomo-a4546b228/"><img class="logo-linkedin" src="https://img.icons8.com/color/2x/linkedin-circled--v3.gif" alt="logo-linkedin"></a>
-            </div>
-        </section>
         <nav>
+            
             <section class="nav-logo-container">
-                <a href=""><img src="assets/logo-mundi.PNG" alt="logo de mi blog"></a>
+                <img src="img/logo-mundi.PNG" alt="logo de mi blog">
             </section>
-
-            <section class="profile-link">
-                <div class="nav-menu" >
-                    <a class="sobreMi" href="index.html">Sobre mí</a>
-                    <a class="proyects" href="proyectos.html">Mis proyectos</a>
-                    <a class="contacts" href="contacto.html">Contactos</a>
+            <section class="header-icons-container">
+                <div class="icons">
+                    <a href="https://www.instagram.com/urbanomangomo/"><img class="logo-instagram" src="./img/bxl-instagram.svg" alt="logo-Instagram"></a>
+                    <a href="https://twitter.com/UrbanoAkoro"><img class="logo-twitter" src="./img/bxl-twitter.svg" alt="logo-Twitter"></a>
+                    <a href="https://www.linkedin.com/in/urbano-akoro-mangomo-a4546b228/"><img class="logo-linkedin" src="./img/bxl-linkedin.svg"></a>
                 </div>
             </section>
+            <section class="profile-link">
+                <img class="cerrar-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATxJREFUSEvVluFtwkAMRl8maDegI8AElBGYgLIBGwAbdIOWDdgAmKAdod0AJmj1STG6nJIUYUdJLeXHJSe/fLbPvoKerOiJy6DAT8AoOBLfwFfqM1f8DiyCoeZOvpe2SMEvwFtHUHM7B/ZapOANsO4YvAXEGR74FKx8Wvr7U3H0Mfv5t+BHQOf8M0vFuDyn54YUuRQLeijBswQuqN6rQeh9HdwFTo+bnAsiE1Q/JbsWT6bcBZavtLOZMoPuADWhOnODc7hB2qDaEwJWTj8yWZOagku3uMFWSBZec245z6vdvrvAOVThldk0a4O7wUfgAUhzagV3AZ4bQu4CS51Uq3JXWY5fy4rvJNSeueFWfC/8ZrByFWmqjUpnG8TVp6krRSmvdLe6ga+xpyfSNLlar7eRsFZf0Vecm3+8N/Av4CBiH30a7RMAAAAASUVORK5CYII="/> 
+                <img class="menu" src="./img/menu.png" alt="">
+                <div class="nav-menu" >
+                    <a class="sobreMi" href="#inicio">Sobre mí</a>
+                    <a class="proyects" href="#proyectos">Mis proyectos</a>
+                    <a class="contacts" href="#contactos">Contactos</a>
+                </div>
+
         </nav>
     </header>
     <main class="blogs-main">   
-        <section class="profile-main-container">
-            <div class="grid-container profile-container">
-                <div>
-                   <img src="assets/perfil.jpg" alt=""> 
+            <div  class="profile-container" id="inicio">
+                <div class="contenedor-img">
+                   <img src="img/perfil.jpg" alt=""> 
                 </div>
                 <div>
-                <h2>Hola, Mi nombre es Urbano Akoro Mangomo Mikue</h2>
-                <p>Soy Desarrollador web (frontend) y Maestro Industrial en la mecánica de Automóviles. <br> 
+                <h2>Hola,<br> Mi nombre es Urbano Akoro Mangomo Mikue</h2>
+                <p>Soy Desarrollador web (frontend). 
                     Aficionado con las tecnologias desde mi infancia y me gusta descubrir cosas interesantes y nunca parar de aprender. </p>
                 </div>
             </div>
-        </section>
-        <section class="profile-main-proyects">
             <div class="grid-container">
-            <h3>Formación y empleo:</h3>
-            <div class="proyects-main-container">
+            <h3>Formación:</h3>
+            <div class="proyects-main-container" id="formacion">
                 <article class="proyect-container">
                     <h4>Cursos de Programacion y Desarrollador Web (Frondend). </h4>
-                    <p>Estudio Programación y Desarrollo Web online en <a href="https://platzi.com/p/urbanoakoro1991/">Patzi</a> .
-                         Ya pude aprobar varios cursos como curso profesional de <a href="https://platzi.com/p/urbanoakoro1991/curso/2008-html-css/diploma/detalle/"
-                        >HTML y CSS</a> ,<a href="https://platzi.com/p/urbanoakoro1991/curso/2467-frontend-developer/diploma/detalle/">
+                    <p>Estudio Programación y Desarrollo Web online en <a href="https://platzi.com/p/urbanoakoro1991/">Patzi</a> desde el septiembre de 2021 y pertenezco a esta vazta comunidad de desarrolladores.
+                    Ya pude aprobar varios cursos como curso profesional de <a href="https://platzi.com/p/urbanoakoro1991/curso/2008-html-css/diploma/detalle/">HTML y CSS</a> ,<a href="https://platzi.com/p/urbanoakoro1991/curso/2467-frontend-developer/diploma/detalle/">
                         Curso de Frontend Developer,</a><a href="https://platzi.com/p/urbanoakoro1991/curso/1098-ingenieria/diploma/detalle/">
                         Fundamentos de Ingenieria de Software</a>,<a href="https://platzi.com/p/urbanoakoro1991/curso/2327-javascript-practico/diploma/detalle/">
                         Curso Práctico de javascrpt</a>, <a href="https://platzi.com/p/urbanoakoro1991/curso/1557-git-github/diploma/detalle/">
-                        Curso profesional de Git y Github</a> y otros tantos cursos que pueden consultar en mi perfil de <a href="https://platzi.com/p/urbanoakoro1991/"> Platzi</a>.</p>
+                        Curso profesional de Git y Github</a>, para citar algunos, y otros tantos cursos que pueden consultar en mi perfil de <a href="https://platzi.com/p/urbanoakoro1991/"> Platzi</a>.</p>
                 </article>
                 <article class="proyect-container">
                     <h4>Curso de Desarrollo de Aplicaciones Multiplataformas.</h4>
-                    <p>Comencé un curso de Desarrollo de Aplicaciones Multiplataformas en el  
+                    <p>Comencé un curso presencial de Técnico Superior en Desarrollo de Aplicaciones Multiplataformas en el  
                         <a href="https://formacionprofesionalalicante.es/ciclos/tecnico-superior-en-desarrollo-de-aplicaciones-multiplataforma/">
                             Centro Profesional FEMPA de alicante-ESPAÑA</a> . Pude empezar con el aprendizaje con HTML, CSS, Java y my SQL y despues de tres meses,
-                            me di cuenta que me gustaba más la parte de desarrollo web.</p>
-                </article>
-                <article class="proyect-container">
-                    <h4>Maestro Industrial en la Mecánica de automoviles.</h4>
-                    <p>Estudié mecanica y he trabajado 6 años en un proyecto de gasificacion vehicular como resposable de mantenimiento. Tambien he participado en un
-                     <a href="https://mmie.gob.gq/index.php/nggallery/slideshow?p=4922">curso de mantenimiento de vehiculos propulsados a gas natural comprimido en FOTON
-                          Beijing CHINA</a>  .</p>
+                            me di cuenta que me gustaba más la parte de desarrollo web y me fascina Javascrip.</p>
                 </article>
             </div>
-        </div>
-        </section>
+            </div>
+            <hr>
+
+<section class="proyectos"  id="proyectos">
+    <div class="blogs-news-info-container">
+        <h3>PROYECTOS REALIZADOS</h3>
+        <p>En el mundo de la tecnologia, la práctica es la que nos lleva a la sabiduria y perfección, 
+            es por ello realizo estos proyectos para poder poner en práctica las clases que recibo 
+            cada dia y hago algunos retos de algunas páginas y aplicaciones que veo por internet. 
+            Todos los proyectos son Responsive (se pueden manejar desde cualquier dispositivo).</p>
+      </div>
+    <section class="blogs-posts-container">
+        <article class="post-container">
+            <img class="img-proyects" src="img/unge.PNG" alt="img dibujo css">
+            <h3>Página web de la UNGE.</h3>
+            <p>Es un Proyecto realizado con HTML, CSS y javascrip. Se trata de una página web pensado
+                 en transmitir la información de la Universidad de Guinea Ecuatorial y hacer posible 
+                 que se esta información pueda llegar al usuario y que el usuario pueda interactuar con 
+                 dicha institución a travez de dicha plataforma web.  </p>
+            <a href="https://urbano90.github.io/juego-css/"class="blogs-button">Ver Proyecto</a>
+        </article>
+        <article class="post-container">
+            <img class="img-proyects" src="img/inmobiliaria.PNG" alt="img descuento">
+            <h3>Inmoboliaria.</h3>
+            <p>En éste proyecto pude utilizar HTML, CSS y javascript.
+                Es una página inmobiliaria que trata de mostrar al usuario las diferentes viviendas
+                 que tiene la agencia para alquilar o vender. Tambien el usuario puede interactuar
+                  con la agencia inmobiliaria a travez de la página web.</p>
+            <a href="https://urbano90.github.io/Descuento/"class="blogs-button">Ver proyecto</a>
+        </article>
+        <article class="post-container">
+            <img class="img-proyects" src="img/factura.PNG" alt="img figuras geométricas">
+            <h3>Factura de compras.</h3>
+            <p>Es una aplicacion que calqula las compras del usuario, saca el resultado de cada
+                 producto en cantidades y el resultado final, también guarda los datos en el local
+                  Storage. en la aplicación utilicé HTML, CSS, javascrip </p>
+            <a href="https://urbano90.github.io/figuras/"class="blogs-button">Ver proyecto</a>
+        </article>
+        <article class="post-container">
+            <img class="img-proyects" src="img/dibujo-css.PNG" alt="img dibujo css">
+            <h3>Animacion de dibujos con CSS.</h3>
+            <p>Es un Proyecto que hice para practicar con HTML5 y CSS3,
+                 en este proyecto pude desarrollar las habilidades de manejar con mucha profundidad CSS3 </p>
+            <a href="https://urbano90.github.io/juego-css/"class="blogs-button">Ver Proyecto</a>
+        </article>
+        <article class="post-container">
+            <img class="img-proyects" src="img/descuentos.PNG" alt="img descuento">
+            <h3>Calculo de Descuento.</h3>
+            <p>En éste proyecto pude utilizar HTML, CSS y javascript.
+                 La aplición calcula de forma automática los descuentos podiendo elejir el tipo de moneda con la que quieren sacar el resultado </p>
+            <a href="https://urbano90.github.io/Descuento/"class="blogs-button">Ver proyecto</a>
+        </article>
+        <article class="post-container">
+            <img class="img-proyects" src="img/figur.PNG" alt="img figuras geométricas">
+            <h3>Cálculo de figuras geométricas.</h3>
+            <p>Es una aplicacion que hice para realizar cálculos de diferentes figuras geométricas, en la aplicación utilicé HTML, CSS, javascrip </p>
+            <a href="https://urbano90.github.io/figuras/"class="blogs-button">Ver proyecto</a>
+        </article>
+        <article class="post-container">
+            <img class="img-proyects" src="img/preguntas.PNG" alt="img preguntas y respuestas">
+            <h3>Cuestionario de preguntas.</h3>
+            <p>Es un cuestionario de preguntas y respuestas realizado con HTML, CSS, Javascript. El cuestionario tiene preguntas que despues de responderlas, 
+                nos saca el resultado de las preguntas que están bien respuestas y nos dice las que no hemos acertado. </p>
+            <a href="https://urbano90.github.io/preguntasRespuestas/"class="blogs-button">Ver proyecto</a>
+        </article>
+        <article class="post-container">
+            <img class="img-proyects" src="img/Restaurante.PNG" alt="img restaurante">
+            <h3>Página web de un restaurante.</h3>
+            <p>Una página web realizado con HTML, CSS y Javascrip donde se puede hacer reservas de comida e interactuar con las distintas redes sociales, 
+                tambien se puede hacer un pedido desde un formulario que está conectado con el dueño del restaurante.</p>
+            <a href="https://urbano90.github.io/proyectoRestaurante/"class="blogs-button">Ver proyecto</a>
+        </article>
+</section>
+<hr>
+<section class="contactos" id="contactos">
+   <div class="row">
+    <form action="https://formsubmit.co/urbanoakoro1991@gmail.com" method= "post">
+        <h3>Rellene el formulario y le atendereé en breve.</h3>
+        <input type="text" name="Nombre" id="nombre" placeholder="Nombre" class="box">
+        <input type="email" name="Correo" id="correo" placeholder="ejemplo@gmail.com" class="box">
+        <input type="number" name="Tel" id="nombre" placeholder="Tel:" class="box">
+        <textarea name=""  id="mensaje" placeholder="Deje un mensaje" class="box" name="Mensaje" cols="30" rows="10"></textarea>
+        <input type="submit" value="Envíe un mensaje" id="enviarMensaje" class="btn">
+    </form>
+   </div>
+   </section>
     <section class="contact-main-container">
         <div  class="contact-left">
              <div>
-                <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/2x/external-email-influencer-marketing-flaticons-lineal-color-flat-icons-2.png" 
-                alt="logo de correo"><a href="mailto:urbandev1991@gmail.com?subjectprobando&body=probandoCorreo">urbanoakoro1991@gmail.com</a> <p>Déjame un correo.</p> 
+            <a href="mailto:urbandev1991@gmail.com?subjectprobando&body=probandoCorreo"><img src="./img/bx-mail-send.svg" alt="logo de correo">urbanoakoro1991@gmail.com</a> <p>Déjame un correo.</p> 
              </div>
         </div>
         <div class="contact-left">
             <div>
-                <img src="https://img.icons8.com/fluency/2x/whatsapp.png" alt="logo de llamada">
-                <a href="whatsapp://send?text=Hola, Me gustaria contactar con Urbano Akoro&phone=34 624458875&abid=+34 624458875"> Whatsapp</a> 
+                
+                <a href="whatsapp://send?text=Hola, Me gustaria contactar con Urbano Akoro&phone=34 624458875&abid=+34 624458875"><img src="./img/bxl-whatsapp.svg" alt="logo de llamada"> Whatsapp</a> 
                 <p>Puedes escribirme por whatsapp.</p>
             </div>
        </div>
@@ -97,5 +171,6 @@
 <footer>
     <p>Copyright 2022.</p>
 </footer>
+<script src="./js/main.js"></script>
 </body>
 </html>
