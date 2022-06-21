@@ -43,6 +43,13 @@ nav .profile-link img {
         width: 100%;
         margin: 0 auto;
      }
+     .profile-container {
+        display: grid;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0;
+    }
     .profile-container {
         width: 100%;
         margin: 0 auto;
