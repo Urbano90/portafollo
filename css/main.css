@@ -54,7 +54,7 @@ nav {
     justify-content: center;
     padding: .5rem;
 }
-.profile-link img { /* imagen del menu*/
+.menu { /* imagen del menu*/
     width: 3rem;
     display: none;
     cursor: pointer;
@@ -119,6 +119,16 @@ nav {
     gap: 2rem;
     padding: 1rem;
 }
+.img-proyects {
+    display: grid;
+    justify-content: center;
+    padding: .5rem;
+}
+.post-container .blogs-button {
+    display: flex;
+    justify-content: center;
+    padding: .6rem;
+}
 .blogs-posts-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -130,13 +140,15 @@ nav {
 .blogs-news-info-container h3 {
     text-align: center;
     background: cornflowerblue;
+    padding: .3rem;
 }
 .blogs-news-info-container p {
     padding: 1rem;
     margin-top: .9rem;
 }
 .img-proyects {
-    width: 12rem;
+    width: 80%;
+    height: 100%;
     margin: 0 auto;
 }
 .post-container {
@@ -205,6 +217,17 @@ nav {
     text-align: center;
 }
 .contact-main-container img {
+    width: 3rem;
+}
+.llamada {
+    width: 100%;
+}
+.llamada div {
+     display: grid;
+     justify-content: center;
+     padding: .5rem;
+}
+.llamada img {
     width: 3rem;
 }
 
