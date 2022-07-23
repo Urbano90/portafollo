@@ -25,6 +25,6 @@ cerrar.addEventListener("click", function() {
     document.querySelector(".body").style.overflow = 'visible';
     document.querySelector(".nav-menu").style.display = "none";
     document.querySelector(".cerrar-img").style.display = "none";
-    document.querySelector(".menu").style.display = "block";
+    document.querySelector(".menu").style.display = "block";  
 });
 
