@@ -99,7 +99,7 @@ nav {
     justify-content: center;
 }
 .contenedor-img img {
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
     border-radius: .5rem;
     box-shadow: 0 0 30px black;
@@ -154,21 +154,20 @@ nav {
 .post-container {
     padding: 1rem;
 }
-
 .contact-main-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     max-width: 100%;
-    min-height: 250px;
+    min-height: 150px;
     padding-bottom:50px ;
     background: #e6e9ed;
     text-align: center;
     box-shadow: 0 0 30px black;
 }
 .contactos .row form {
-    width: 50%;
+    width: 40%;
    display: block;
-   margin: 2rem auto;
+   margin: 1rem auto;
    padding: 1rem;
    border: var(--border);
    border-radius: .5rem;
@@ -180,11 +179,10 @@ nav {
     color: var(--black);
 }
 .contactos .row form .box {
-    margin: .5rem 0;
-    width: 100%;
+    margin: .2rem 0;
+    width: 90%;
     border: var(--border);
     padding: .5rem;
-    font-size: 1rem;
     color: var(--black);
     text-transform: none;
     border-radius: .5rem;
@@ -195,7 +193,7 @@ nav {
 }
 .btn {
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: .5rem;
     border-radius: .5rem;
     background: var(--light-yellow);
     color: var(--black);
@@ -213,14 +211,16 @@ nav {
     padding-bottom: .5rem;
 }
 .contact-main-container .contact-left, .contact-right {
-    margin-top: 80px;
+    margin-top: 20px;
     text-align: center;
+    align-items: center;
 }
 .contact-main-container img {
-    width: 3rem;
+    width: 1.6rem;
 }
 .llamada {
     width: 100%;
+    margin-bottom: 20px;
 }
 .llamada div {
      display: grid;
@@ -228,7 +228,7 @@ nav {
      padding: .5rem;
 }
 .llamada img {
-    width: 3rem;
+    width: 1.6rem;
 }
 
 footer{
